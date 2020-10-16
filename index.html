@@ -31,7 +31,7 @@
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
+  <!-- ======= Top Bar ======= --
   <section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
@@ -41,14 +41,14 @@
     </div>
   </section>
 
-  <!-- ======= Header ======= -->
+  <!-- ======= Header ======= --
   <header id="header">
     <div class="container d-flex">
 
       <div class="logo mr-auto">
         <h1 class="text-light"><a href="index.html">Griffin Egress</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- Uncomment below if you prefer to use an image logo --
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -62,17 +62,92 @@
           <li><a href="#contact">Contact Us</a></li>
 
         </ul>
+      </nav><!-- .nav-menu --
+
+    </div>
+  </header><!-- End Header --
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo"><a href="index.html">Griffin Egress</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
       </nav><!-- .nav-menu -->
+
+      <a class="get-started-btn scrollto ml-auto" href="#quote">Free Quote</a>
+
+      <!--<a href="index.html" class="get-started-btn ml-auto">Free Quote</a>-->
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container" data-aos="fade-up">
-      <h1 style="font-size: 50px;">Griffin Egress</h1>
-      <h2>Cheaper, Quicker, Better.</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/about.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h1>Welcome to <span>Griffin Egress</span></h1>
+              <h2>Cheaper, Quicker, Better.</h2>
+              <a href="#quote" class="btn-get-started scrollto">Get A Quote</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/about.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h1>Welcome to <span>Griffin Egress</span></h1>
+              <h2>Cheaper, Quicker, Better.</h2>
+              <a href="#quote" class="btn-get-started scrollto">Get A Quote</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/about.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h1>Welcome to <span>Griffin Egress</span></h1>
+              <h2>Cheaper, Quicker, Better.</h2>
+              <a href="#quote" class="btn-get-started scrollto">Get A Quote</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
     </div>
   </section><!-- End Hero -->
 
